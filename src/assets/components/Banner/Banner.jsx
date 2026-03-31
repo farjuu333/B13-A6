@@ -29,7 +29,7 @@ function Banner() {
         {/* Heading */}
         <h1 className="text-[40px] md:text-[64px] font-bold leading-[1.1] text-gray-900 mb-6">
           Supercharge Your <br className="hidden md:block" /> 
-          <span className="text-purple-900">Digital Workflow</span>
+          <span className="text-purple-700">Digital Workflow</span>
         </h1>
 
         {/* Subtext */}
@@ -45,7 +45,7 @@ function Banner() {
           </button>
           
 
-          <button className="flex items-center gap-2 text-purple-600 px-4 py-3 rounded-full font-semibold border border-purple-200 hover:bg-purple-300 transition-all text-sm md:text-base whitespace-nowrap bg-white">
+          <button className="flex items-center gap-2 text-purple-600 px-4 py-3 rounded-full font-semibold border border-purple-200 hover:bg-purple-500 transition-all text-sm md:text-base whitespace-nowrap bg-white">
   
   
   <div className="  flex items-center justify-center ">
