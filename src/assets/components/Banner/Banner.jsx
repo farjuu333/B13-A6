@@ -29,7 +29,7 @@ function Banner() {
         {/* Heading */}
         <h1 className="text-[40px] md:text-[64px] font-bold leading-[1.1] text-gray-900 mb-6">
           Supercharge Your <br className="hidden md:block" /> 
-          <span className="text-gray-900">Digital Workflow</span>
+          <span className="text-purple-900">Digital Workflow</span>
         </h1>
 
         {/* Subtext */}
