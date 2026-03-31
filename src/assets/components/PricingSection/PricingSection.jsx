@@ -56,11 +56,11 @@ const PricingSection = () => {
       </div>
 
       {/* Pricing Cards Container */}
-      <div className="flex flex-col md:flex-row justify-center items-stretch gap-4 max-w-6xl mx-auto">
+      <div className="flex flex-col md:flex-row justify-center items-stretch gap-4 max-w-5xl mx-auto">
         {plans.map((plan, index) => (
           <div
             key={index}
-            className={`relative flex-1 p-8 rounded-2xl border transition-all duration-300 ${
+            className={`relative flex-1 p-6 rounded-2xl border transition-all duration-300 ${
               plan.isPopular 
                 ? 'bg-gradient-to-b from-[#4F39F6] to-[#9514FA] text-white border-transparent shadow-xl scale-105 z-10' 
                 : 'bg-white text-gray-900 border-gray-100 shadow-sm'

@@ -59,12 +59,18 @@ const Footer = () => {
                 <div className="w-8 h-8 rounded-full bg-white flex items-center justify-center text-[#101727] hover:bg-gray-200 cursor-pointer">
                   <span className="text-xs font-bold">W</span>
                 </div>
+                {/* X (Twitter) */}
+    
                 <div className="w-8 h-8 rounded-full bg-white flex items-center justify-center text-[#101727] hover:bg-gray-200 cursor-pointer">
                   <span className="text-xs font-bold">f</span>
                 </div>
+                {/* Facebook */}
+    
                 <div className="w-8 h-8 rounded-full bg-white flex items-center justify-center text-[#101727] hover:bg-gray-200 cursor-pointer">
                   <span className="text-xs font-bold">X</span>
                 </div>
+                {/* Instagram */}
+   
               </div>
             </div>
           </div>
