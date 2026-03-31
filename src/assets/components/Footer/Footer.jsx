@@ -2,10 +2,10 @@ import React from 'react';
 
 const Footer = () => {
   return (
-    <footer className="w-full bg-[#101727] text-white pt-[120px] pb-[30px] px-4 md:px-[200px]">
+    <footer className="w-full bg-[#101727] text-white pt-30 pb-7.5 px-4 md:px-50">
       <div className="max-w-7xl mx-auto">
         {/* Main Footer Content */}
-        <div className="flex flex-col md:flex-row justify-between gap-12 mb-[80px]">
+        <div className="flex flex-col md:flex-row justify-between gap-12 mb-20">
           
           {/* Logo and Description */}
           <div className="max-w-[320px]">
@@ -57,7 +57,7 @@ const Footer = () => {
               <div className="flex gap-4">
                 {/* Social Icons Placeholder - replace with actual icons */}
                 <div className="w-8 h-8 rounded-full bg-white flex items-center justify-center text-[#101727] hover:bg-gray-200 cursor-pointer">
-                  <span className="text-xs font-bold">W</span>
+                  <span className="text-xs font-bold">In</span>
                 </div>
                 {/* X (Twitter) */}
     
