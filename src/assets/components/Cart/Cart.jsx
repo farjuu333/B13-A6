@@ -16,7 +16,7 @@ function Cart({ cart, handleRemoveItem,handleClearCart }) {
       
       {cart.length === 0 ? (
         <div className="flex flex-col items-center justify-center">
-          <img src={shoppingCartImg} alt="Empty Cart" className="w-32 h-32 mb-4 object-contain opacity-40" />
+          <img src={shoppingCartImg} alt="Empty Cart" className="w-10 h-10 mb-4 object-contain opacity-40" />
           <p className="text-lg text-gray-500 font-medium">Your cart is empty</p>
         </div>
       ) : (
