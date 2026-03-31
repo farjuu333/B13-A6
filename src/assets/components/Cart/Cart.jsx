@@ -1,5 +1,5 @@
 import React from 'react';
-import shoppingCartImg from '../../products/shopping-cart.png';
+import shoppingCartImg from '/products/shopping-cart.png';
 
 
 function Cart({ cart, handleRemoveItem,handleClearCart }) {

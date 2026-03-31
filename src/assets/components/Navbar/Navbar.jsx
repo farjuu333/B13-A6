@@ -1,7 +1,7 @@
 
 
 import React, { useState } from 'react' 
-import CartIcon from '../../products/shopping-cart.png'
+import CartIcon from '/products/shopping-cart.png'
 
 function Navbar({ cartCount }) {
   
